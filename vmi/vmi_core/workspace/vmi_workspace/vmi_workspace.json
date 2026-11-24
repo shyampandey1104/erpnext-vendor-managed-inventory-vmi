@@ -1,30 +1,104 @@
 {
- "charts": [],
- "content": "[{\"type\":\"header\",\"data\":{\"text\":\"Erpnext Vendor Managed Inventory Vmi Workspace\",\"level\":4}}]",
+ "charts": [
+  {
+   "chart_name": "Erpnext Vendor Managed Inventory Vmi Volume Trend",
+   "label": "Erpnext Vendor Managed Inventory Vmi Volume Trend"
+  }
+ ],
+ "content": "[{\"type\": \"header\", \"data\": {\"text\": \"Erpnext Vendor Managed Inventory Vmi Workspace\", \"level\": 4}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Erpnext Vendor Managed Inventory Vmi Operations\"}}, {\"type\": \"card\", \"data\": {\"card_name\": \"Audit & Compliance\"}}]",
  "creation": "2026-04-01 10:00:00.000000",
  "custom_blocks": [],
  "docstatus": 0,
  "doctype": "Workspace",
  "for_user": "",
  "hide_custom": 0,
- "icon": "octicon octicon-book",
+ "icon": "octicon octicon-package",
  "idx": 0,
  "is_hidden": 0,
  "label": "Erpnext Vendor Managed Inventory Vmi",
- "links": [],
+ "links": [
+  {
+   "label": "Operational Documents",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Vendor Managed Inventory Vmi Entry",
+   "label": "Erpnext Vendor Managed Inventory Vmi Entry",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Entry",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "label": "Audit & Reports",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Vendor Managed Inventory Vmi Audit Log",
+   "label": "Erpnext Vendor Managed Inventory Vmi Audit Log",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Audit Log",
+   "link_type": "DocType",
+   "type": "Link"
+  },
+  {
+   "is_query_report": 1,
+   "label": "Erpnext Vendor Managed Inventory Vmi Summary",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Summary",
+   "link_type": "Report",
+   "type": "Link"
+  },
+  {
+   "label": "Configuration",
+   "type": "Card Break"
+  },
+  {
+   "doctype": "Erpnext Vendor Managed Inventory Vmi Settings",
+   "label": "Erpnext Vendor Managed Inventory Vmi Settings",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Settings",
+   "link_type": "DocType",
+   "type": "Link"
+  }
+ ],
  "modified": "2026-04-01 10:00:00.000000",
  "modified_by": "Administrator",
  "module": "Vmi_Core",
  "name": "Erpnext Vendor Managed Inventory Vmi",
  "owner": "Administrator",
  "public": 1,
- "quick_lists": [],
+ "quick_lists": [
+  {
+   "document_type": "Erpnext Vendor Managed Inventory Vmi Entry",
+   "label": "Recent Erpnext Vendor Managed Inventory Vmi Entries"
+  }
+ ],
  "roles": [
   {
    "role": "System Manager"
+  },
+  {
+   "role": "Accounts User"
   }
  ],
  "sequence_id": 1,
- "shortcuts": [],
+ "shortcuts": [
+  {
+   "color": "Grey",
+   "doc_view": "List",
+   "label": "All Erpnext Vendor Managed Inventory Vmi Entrys",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Entry",
+   "type": "DocType"
+  },
+  {
+   "color": "Green",
+   "label": "System Settings",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Settings",
+   "type": "DocType"
+  },
+  {
+   "color": "Blue",
+   "label": "Compliance Digest",
+   "link_to": "Erpnext Vendor Managed Inventory Vmi Summary",
+   "type": "Report"
+  }
+ ],
  "title": "Erpnext Vendor Managed Inventory Vmi"
 }
